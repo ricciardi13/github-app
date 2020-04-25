@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;    
+    text-align: center;
+}
+
+.form, .results {
+    width: 400px;
+    background-color: #e1e1e1;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.form * {
+    display: block;
+    margin: 15px auto;
+}
+
+.results-list {
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+}
+
+.results-list li {
+    margin: 10px;
+}
+
+.results-list li a {
+    text-decoration: none;
+}
